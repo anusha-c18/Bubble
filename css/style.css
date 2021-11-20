@@ -12,6 +12,8 @@ html{
     background-color: rgb(216, 229, 231);
 }
 
+/* Navigation bar */
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -88,12 +90,15 @@ html{
     margin: -10px 0px 0px 0px;
 }
 
+/* Home page */
+
 .box_main{
     height:95vh; 
     display:flex;
     justify-content: center;
     align-items: center;
 }
+
 .first{
     display:flex;
     justify-content: center;
@@ -111,18 +116,6 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.right{
-    width:50%;
-}
-
-.right img{
-    width: 65%;
-    border-radius: 50%;
-    border: white solid 2px;
-    display: block;
-    margin:auto;
 }
 
 .text-big{
@@ -151,36 +144,6 @@ html{
     cursor: pointer;
 }
 
-.about{
-    margin: 20px 20px 20px 20px ;
-    border-radius: 5px;
-    background-color: rgb(14, 255, 239);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px 30px 30px 30px ;
-}
-
-.about div p{
-    color: rgb(4, 5, 46);
-}
-
-.info{
-    align-self:flex-start;
-    color: rgb(255, 55, 88);
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.form-container{
-
-    margin: 20px 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap:wrap;
-}
 .container{
     margin: 20px 20px;
     border-radius: 5px;
@@ -191,10 +154,11 @@ html{
     flex-wrap:wrap;
 }
 
+/* How it works */
+
 .process_container{
     background-color: rgb(199 255 198);
 }
-
 
 .process{
     display: flex;
@@ -233,9 +197,12 @@ html{
     height: 70px;
 }
 
+/* Contact us form */
+
 .contact_outer{
     background-color: rgb(223 212 255);
 }
+
 .container{
     margin: 20px 20px;
     display: flex;
@@ -251,6 +218,8 @@ html{
     font-family: monospace;
     font-size:large; 
 }
+
+/* Contact us form */
 
 .form{
     background-color: black;
@@ -298,6 +267,8 @@ html{
 .buttons{
     margin:15px 10px;
 }
+
+/* Gallery page */
 
 .gallery {
     display: flex;
@@ -348,8 +319,41 @@ html{
     transition: 0.3s;
 }
 
+/* About page */
+
+.info{
+    background-color: #00191e;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 10px 0 20px 0;
+    color: #adf3cf;
+
+}
+
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px 150px 20px 150px;
+    color: #adf3cf;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.video{
+    background-color: black;
+}
+
+/* Responsive website */
 
 @media only screen and (max-width: 873px){
+    .content{
+        margin: 0 30px;
+        font-size:17px;
+    }
     .navbar{
         flex-direction: column;
         height:233px;
@@ -393,5 +397,11 @@ html{
     }
     .mails{
         margin: 0px 10px;;
+    }
+}
+
+@media only screen and (max-width: 667px){
+    .video iframe{
+        width: 100%;
     }
 }
