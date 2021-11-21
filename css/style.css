@@ -23,7 +23,7 @@ html{
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url(/images/background/bubble\ bags.jpeg);
+    background: rgba(0, 0, 0, 0.7) url(../images/background/bubble\ bags.jpeg);
     background-size: cover;
     background-blend-mode: darken;
 }
