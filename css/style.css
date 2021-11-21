@@ -17,12 +17,13 @@ html{
 .navbar{
     display: flex;
     flex-direction: row;
+    transition: all 0.3s ease-out;
     align-items: center;
     justify-content:center;
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url(/images/bubble\ bags.jpeg);
+    background: rgba(0, 0, 0, 0.7) url(/images/background/bubble\ bags.jpeg);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -83,6 +84,7 @@ html{
 .logo1{
     opacity:0;
     left: 3%;
+    transition: opacity 0.3s linear;
     top: 13px;
     position: absolute;
 }
@@ -657,12 +659,9 @@ html{
     .navbar{
         flex-direction: column;
         height:233px;
-        transition: all 0
-        .3s ease-out;
     }
     .logo1{
         opacity: 1;
-        transition: opacity 0.3s linear;
     }
     .logo{
         order:1;
