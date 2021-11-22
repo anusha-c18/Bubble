@@ -115,7 +115,7 @@ html{
 }
 
 .left{
-    width:80%;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,6 +134,8 @@ html{
     font-size: 15px;
     margin: 10px 5px 10px 5px;
     text-align: center;
+    font-style: italic;
+    font-weight: 450;
 }
 
 .buttons button{
@@ -270,6 +272,30 @@ html{
 
 .buttons{
     margin:15px 10px;
+}
+/* thank you page */
+
+.thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: #220138;
+}
+
+.thanks h2{
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+.thanks p{
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 /* Gallery page */
@@ -622,17 +648,21 @@ html{
   }
   
   .anusha_links{
-    text-decoration: none;
-    margin: 10px auto 5px auto;;
-    display: block;
+    margin: 10px auto 5px auto;
     text-align: center;
+  }
+
+  .anusha_links a{
+    text-decoration: none;
     color: rgb(255, 255, 255);
   }
 
-  .anusha_links:hover{
+  .anusha_links a:hover{
       font-style: italic;
       color:rgb(139, 240, 255);
   }
+
+
   .footer-basic .copyright {
     margin-top:10px;
     text-align:center;

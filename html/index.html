@@ -128,20 +128,24 @@
             <div class="heading">
                 <h2>Contact Us</h2>
             </div>
-            <form action="" class="form">
+            <form action="https://formsubmit.co/bubble.children.home@gmail.com"  method="POST" class="form">
+                <input type="hidden" name="subject" value="Someone is trying to contact you">
+                <input type="hidden" name="_captcha"value="false">
+                <input type="hidden" name="_next" value="index.html">
+                <input type="hidden" name="_cc" value="anushachaturvedi18@gmail.com">
                 <div class="row name">
-                    <input type="text" placeholder="First Name" name="fname" id="fname">
-                    <input type="text" placeholder="Surname" name="lname" id="lname">
+                    <input type="text" placeholder="First Name" name="fname" id="fname" required>
+                    <input type="text" placeholder="Surname" name="lname" id="lname" required>
                 </div>
                 <div class="row mails">
-                    <input type="mail" placeholder="Email ID" name="mail" id="mail">
+                    <input type="mail" placeholder="Email ID" name="mail" id="mail" required>
                 </div>
                 <div class="row">
                     <label for="message"></label>
-                    <textarea name="message" id="message" rows="10" placeholder="Enter your message here"></textarea>
+                    <textarea name="message" id="message" rows="10" placeholder="Enter your message here" required></textarea>
                 </div>
                 <div class="buttons row">
-                    <button>Submit</button>
+                    <button type="submit" id="submit_button">Submit</button>
                 </div>
             </form>
         </div>
@@ -155,19 +159,20 @@
                 <a href="#"><i class="icon ion-social-facebook"></i></a>
             </div> -->
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="#nav">Home</a></li>
-            <li class="list-inline-item"><a href="about.html">About</a></li>
+            <li class="list-inline-item"><a href="./index.html">Home</a></li>
+            <li class="list-inline-item"><a href="./about.html">About</a></li>
             <li class="list-inline-item"><a href="./gallery.html">Gallery</a></li>
             <li class="list-inline-item"><a href="./records.html">Our Work</a></li>
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
         </ul>
-        <p class="copyright">Bubble © 2021</p>
+        <p class="copyright">Bubble since 2021</p>
         <p class="copyright">Website made by: Anusha Chaturvedi</p>
-        <a class="anusha_links" href="https://www.linkedin.com/in/anusha18/"
-            target="_blank">www.linkedin.com/in/anusha18</a>
+        <div class="anusha_links">
+            <a href="https://www.linkedin.com/in/anusha18/" target="_blank">www.linkedin.com/in/anusha18</a>
+        </div>
     </footer>
 
     <script src="../js/index.js"></script>
+
 </body>
 
 </html>
