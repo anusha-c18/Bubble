@@ -663,7 +663,7 @@ html{
   }
 
 
-  .footer-basic .copyright {
+  .copyright {
     margin-top:10px;
     text-align:center;
     font-size:13px;
@@ -715,6 +715,15 @@ html{
         flex: 45%;
         max-width: 45%;
     }
+    .copyright{
+        font-size: x-small;
+        margin: 2px auto;
+    }
+    .anusha_links {
+        font-size: small;
+        margin: 2px auto;
+    }
+
 }
 
 @media only screen and (max-width: 530px){
