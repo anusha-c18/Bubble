@@ -725,6 +725,13 @@ html{
         font-size: small;
         margin: 2px auto 5px auto;
     }
+    .thanks h2{
+        font-size: large;
+    }
+    
+    .thanks p{
+        font-size: small;
+    }
 
 }
 
