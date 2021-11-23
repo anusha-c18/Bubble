@@ -1,5 +1,5 @@
 <?php include_once("./html/index.html");
-include_once("./html/gallery.html");
-include_once("./html/records.html");
-include_once("./html/about.html");
+include("./html/gallery.html");
+include("./html/records.html");
+include("./html/about.html");
  ?>
