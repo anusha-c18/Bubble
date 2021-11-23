@@ -293,6 +293,7 @@ html{
 }
 
 .thanks p{
+    margin: 0 auto 20px auto;
     font-size: large;
     font-family: monospace;
     font-weight: bold;

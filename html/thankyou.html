@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/logos/title_logo.png" type="image/icon type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar background n-height">
+            <div class="logo1 nv">
+                <a href="index.html">
+                    <img src="../images/logos/logo-removebg-preview.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav n-visibility nv">
+                <li class='navitem'>
+                    <a href="about.html">About</a>
+                </li>
+                <li class='navitem'>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+            <div class="logo n-visibility nv">
+                <a href="index.html">
+                    <img src="../images/logos/logo-removebg-preview.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav n-visibility nv">
+                <li class='navitem'>
+                    <a href="records.html">Our Work</a>
+                </li>
+                <li class='navitem'>
+                    <a href="index.html#contact">Contact Us</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container contact_outer" id="contact">
+            <div class="thanks">
+                <h2>Thank you for filling out the form!</h2>
+                <p>Our Bubble team will revert to you ASAP</p>
+                <p id="seconds-counter">Going back to the main page.</p>
+            </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-basic">
+        <!-- <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div> -->
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="./index.html">Home</a></li>
+            <li class="list-inline-item"><a href="./about.html">About</a></li>
+            <li class="list-inline-item"><a href="./gallery.html">Gallery</a></li>
+            <li class="list-inline-item"><a href="./records.html">Our Work</a></li>
+        </ul>
+        <p class="copyright">Bubble since 2021</p>
+        <p class="copyright">Website made by: Anusha Chaturvedi</p>
+        <div class="anusha_links">
+            <a href="https://www.linkedin.com/in/anusha18/" target="_blank">www.linkedin.com/in/anusha18</a>
+        </div>
+    </footer>
+    <script>
+        var seconds = 5;
+        function incrementSeconds() {
+            seconds -= 1;
+            document.getElementById("seconds-counter").innerHTML = "Going back to the main page in "+seconds+" seconds.";
+        }
+        var cancel = setInterval(incrementSeconds, 1000);
+        setTimeout(function () {
+            window.location.href = "../index.html"; 
+        }, 5000);
+    </script>
+</body>
+
+</html>
