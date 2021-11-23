@@ -606,10 +606,10 @@ html{
   .footer-basic ul {
     padding:0;
     list-style:none;
+    margin: 0 auto 10px auto;
     text-align:center;
     font-size:18px;
     line-height:1.6;
-    margin-bottom:0;
   }
   
   .footer-basic li {
